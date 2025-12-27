@@ -15,12 +15,12 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "http://localhost:5174",
-      "https://frontend-hmggar3nl-technobeas-projects.vercel.app",
+      "https://frontend-l5x3atzdb-technobeas-projects.vercel.app",
     ],
     credentials: true,
   })
 );
+
 
 // Routes
 // admin routes protected with authentication
